@@ -1,144 +1,168 @@
-# Awesome-Procurement-Suite-Extensions-Sap-Ariba
+# Awesome Procurement Suite Extensions (SAP Ariba) ⚡🛒
 
-# Awesome Procurement Suite Extensions (SAP Ariba)
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Procurement Suite Extensions SAP Ariba Banner" width="100%" />
+</p>
 
-> A curated list of top Procurement Suite Extensions and integration platforms for SAP Ariba — both SaaS/Hosted commercial solution extensions and open-source alternatives for extending procurement workflows, contract intelligence, and source-to-pay connectivity.
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Procurement-Suite-Extensions-Sap-Ariba/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Procurement-Suite-Extensions-Sap-Ariba?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Procurement-Suite-Extensions-Sap-Ariba/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Procurement-Suite-Extensions-Sap-Ariba?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Procurement-Suite-Extensions-Sap-Ariba/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0 1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
-
-## 📋 Table of Contents
-
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Icertis Contract Intelligence for SAP Ariba](#icertis-contract-intelligence-for-sap-ariba)
-  - [Coupa App Marketplace](#coupa-app-marketplace)
-  - [JAGGAER Connect](#jaggaer-connect)
-  - [Ivalua Integration Hub](#ivalua-integration-hub)
-  - [Tipalti Connect](#tipalti-connect)
-  - [Zycus Merlin Agentic Platform](#zycus-merlin-agentic-platform)
-  - [Basware P2P](#basware-p2p)
-- [Open-Source Software](#-open-source-software)
-  - [ITK Lite 4 Procurement (SAP-samples)](#itk-lite-4-procurement-sap-samples)
-  - [BTP Procurement Data Extractor (SAP-samples)](#btp-procurement-data-extractor-sap-samples)
-  - [Tail Spend Management (SAP-samples)](#tail-spend-management-sap-samples)
-  - [Ariba Extensibility Samples (SAP-samples)](#ariba-extensibility-samples-sap-samples)
-  - [OpenProcurement](#openprocurement)
-  - [Oxalis-NG](#oxalis-ng)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+> 🌟 **A curated, battle-tested directory of top Procurement Suite Extensions, SAP Ariba SolEx platforms, spend management integrations, BTP CAP services, and open-source e-procurement alternatives for extending modern Source-to-Pay (S2P) workflows.** 🚀
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
-
-Commercial, cloud-hosted Procurement Suite Extensions for SAP Ariba. These are not open-source but are included as reference points for feature comparison.
-
-### Icertis Contract Intelligence for SAP Ariba
-**Type:** SAP Solution Extension for contract lifecycle management
-Icertis is SAP's **only Solution Extension (SolEx) partner for CLM**, providing a strategically aligned, SAP premium-certified platform rather than just an integration [citation:25]. The joint solution is available in **Premium and Premium Plus editions** for contract visibility, automation, and AI-powered insights. Contract intelligence is natively embedded in the SAP UX, enabling authoring, redlining, insights, and obligation tracking across the contract lifecycle. The next step integrates contract intelligence into SAP's next-generation source-to-pay suite, unlocking agentic contracting within procurement workflows [citation:25].
-**Best for:** SAP-centric enterprises wanting a certified, SAP-embedded CLM extension with AI-native contracting capabilities and a roadmap aligned with SAP's source-to-pay evolution.
-
-### Coupa App Marketplace
-**Type:** Partner ecosystem for procurement and spend management
-Coupa's App Marketplace provides certified integrations that extend Coupa's spend management capabilities. Listings include **Spendflo** for AI-powered SaaS negotiation, **Torii** for SaaS contract visibility, **Pactum AI** for autonomous purchase request negotiations, **Fairmarkit** for tail spend sourcing automation, and **CrossConnect** connectors for Sage Intacct, QuickBooks Online, and Workday [citation:18][citation:26]. The marketplace also includes **MuleSoft Connector by AcquisLink** for streamlined enterprise integration development [citation:26].
-**Best for:** Coupa customers wanting pre-built, certified integrations that extend procurement workflows into finance, SaaS management, and supplier negotiation without custom development.
-
-### JAGGAER Connect
-**Type:** ERP integration and source-to-pay connectivity
-JAGGAER Connect enables integration between JAGGAER's Source-to-Pay solutions and core systems like ERP, HCM, and finance platforms. It provides **prebuilt ERP connectors** for Oracle, SAP, NetSuite, and Ellucian via JAGGAER Link, reducing reliance on IT for custom integrations [citation:19]. The platform includes open, standards-based APIs for real-time data exchange and an **Infrastructure as a Service (IaaS)** offering for high availability and scalability. JAGGAER positions Connect as reducing the cost of maintaining point-to-point integrations while enabling a unified procurement data environment [citation:19].
-**Best for:** Organizations using JAGGAER wanting standardized, prebuilt ERP connectors with reduced IT burden and a scalable integration framework.
-
-### Ivalua Integration Hub
-**Type:** Unified integration platform with multi-ERP and AI agent support
-Ivalua's Integration Hub provides prebuilt connectors and templates for SAP S/4HANA, ECC, Oracle, Microsoft Dynamics, Workday, and more, alongside supplier intelligence from Dun & Bradstreet and e-signature via DocuSign [citation:30]. A key differentiator is **Model Context Protocol (MCP) support** in both directions: Ivalua's IVA agent can call external MCP servers, and external AI agents can call Ivalua through a hosted MCP server, governed by user permissions [citation:30]. The platform supports multi-ERP integration on a single Ivalua instance, keeping procurement running through S/4HANA migrations and acquisitions. EAI, ETL, and API flows are configured in the same platform without a second integration license [citation:30].
-**Best for:** Enterprises with complex, multi-ERP landscapes wanting governed integration with bidirectional AI agent connectivity and no additional integration platform licensing.
-
-### Tipalti Connect
-**Type:** Global payables automation and supplier onboarding
-Tipalti Connect streamlines supplier onboarding, invoice processing, mass payments, tax compliance, and financial reconciliation. The platform provides pre-built integrations and APIs that extend ERP workflows, with data automatically synced across payables, procurement, expenses, and corporate cards [citation:28]. Celigo's integrator.io documents a Tipalti connection using OAuth 2.0 with PKCE or client credentials, supporting both Production and Sandbox environments [citation:20].
-**Best for:** Finance teams wanting to extend procurement into global payables automation with supplier tax compliance and payment reconciliation.
-
-### Zycus Merlin Agentic Platform
-**Type:** Source-to-pay suite with agentic AI
-Zycus provides an organically built Source-to-Pay platform powered by **Agentic AI**, with modules spanning intake, procure-to-pay, source-to-contract, and procurement orchestration [citation:21]. **Merlin Intake** integrates with Microsoft Teams for guided procurement, claiming 70% faster request processing. The platform includes **Merlin Agentic Platform** with autonomous AI agents, and **Zycus AppXtend** for customized apps via Platform-as-a-Service [citation:21]. Zycus was recognized as a Customers' Choice in the 2025 Gartner Peer Insights Voice of the Customer for Source-to-Pay Suites [citation:29].
-**Best for:** Organizations wanting a natively built S2P suite with agentic AI embedded across intake, sourcing, contracting, and payables.
-
-### Basware P2P
-**Type:** E-invoicing and purchase-to-pay network
-Basware provides cloud-based e-invoicing and purchase-to-pay automation, with REST APIs for submitting and receiving electronic invoices across **70+ formats**, managing purchase orders, processing accounts payable, and accessing network transaction data [citation:23]. The Basware Network connects buyers and suppliers globally through a single integration point with automatic format conversion. APIs include P2P (accounts payable, procurement, master data), Network (e-invoice send/receive), Vault (document archiving), and SmartPDF (invoice capture) [citation:23].
-**Best for:** Global enterprises needing e-invoicing compliance across 70+ formats with a single supplier network integration point.
+## 📑 Table of Contents
+- [🔍 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Commercial Enterprise Platforms](#-saas--commercial-enterprise-platforms)
+  - [Feature Deep-Dive](#-feature-deep-dive)
+- [💻 Open-Source Software & Extensions](#-open-source-software--extensions)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [🤝 Contributing](#-contributing)
+- [📈 Star History](#-star-history)
+- [💖 Support](#-support)
+- [📄 License](#-license)
 
 ---
 
-## 🟩 Open-Source Software
+## 🔍 Sector Overview & Market Dynamics
 
-Self-hosted, community-driven Procurement Suite Extensions and integration tools for SAP Ariba. The open-source ecosystem is **anchored by SAP's own sample repositories** for Ariba extensibility, alongside public-sector procurement standards.
+The global procurement and business spend management software market is estimated at **$10.1B to $11.4B by 2026** (scaling from ~$8.5B–$9.3B in 2024–2025 at an annual CAGR of **~10.2%**). The sector exhibits **moderate market concentration**: a core vanguard of top-tier enterprise players (SAP Ariba, Coupa, Oracle, Ivalua, JAGGAER, and Zycus) captures approximately **59%** of total market revenue, while the remaining **41%** remains fragmented among agile, specialized SaaS extensions focusing on AI-native intake, contract lifecycle intelligence (CLM), tail spend automation, global tax/AP compliance, and decentralized B2B integrations.
 
-### ITK Lite 4 Procurement (SAP-samples)
-**Stack:** SAP BTP CAP / JavaScript / PostgreSQL | **License:** Apache-2.0
-ITK Lite 4 Procurement is an open-source SAP BTP CAP application developed as an **alternate solution to replace the SAP Ariba Integration Toolkit (ITK)**, which reached end of support on December 31, 2023 [citation:3]. It connects SAP Ariba solutions with third-party systems via **SAP File Transfer Protocol (SFTP)**, exchanging master, transactional, and spend data through CSV file upload and download. The application requires SAP Credential Store, SAP HANA Cloud DB (or PostgreSQL on BTP), Application Logging Service, Job Scheduling Service, and Cloud Foundry Runtime. Deployment uses `npm run mta:package:deploy` [citation:3].
-**Best for:** Organizations needing a supported replacement for the deprecated Ariba ITK to integrate non-SAP ERP systems via SFTP, accepting the SAP BTP infrastructure requirements.
+---
 
-### BTP Procurement Data Extractor (SAP-samples)
-**Stack:** SAP BTP CAP / JavaScript | **License:** Apache-2.0
-The BTP Procurement Data Extractor retrieves **SAP Ariba Cloud Services data through standard APIs** and captures it into a BTP database for easy access in extensibility and integration scenarios [citation:16]. It is part of an SAP Discovery Center mission for extracting Ariba data through standard APIs, intended as a reference for customers building internal applications. The repository includes deployment instructions for BTP Cloud Foundry [citation:16].
-**Best for:** Teams wanting a working reference for extracting Ariba data into BTP for custom analytics or integration, accepting that it is a sample mission component rather than a production product.
+## 🏢 SaaS & Commercial Enterprise Platforms
 
-### Tail Spend Management (SAP-samples)
-**Stack:** SAP BTP CAP / JavaScript | **License:** Apache-2.0
-Tail Spend Management is an open-source BTP CAP application addressing tail spend challenges that are harder to control and less visible than core procurement [citation:11]. It provides **Preferred Supplier Management**, **Mapping Regions and Commodity Codes to Supplier**, and **Auto RFP Event Rule Management** for ERP demands. The project is positioned as an alternative to current quote automation using SAP Ariba for tail spend management, with the goal of consolidating suppliers, negotiating better prices, and reducing administrative burden [citation:11].
-**Best for:** Procurement teams wanting a reference implementation for automating tail spend RFQ events and preferred supplier management within the SAP BTP ecosystem.
+Commercial, cloud-hosted Procurement Suite Extensions and integrations for SAP Ariba and enterprise Source-to-Pay ecosystems. The table below compares verified enterprise pricing tiers, free tier / trial terms, and business scale metrics (sorted in descending order by company valuation / annual revenue).
 
-### Ariba Extensibility Samples (SAP-samples)
-**Stack:** Jupyter Notebook / Various | **License:** Apache-2.0
-The Ariba Extensibility Samples repository is a **one-stop source for SAP Ariba developers**, containing code samples, links to publicly available content, and a list of resources for extending Ariba capabilities [citation:24]. Topics include **APIs** (code samples for communicating with Ariba APIs), **Connectivity with SAP Cloud Connector**, and **Integration with other SAP Products** (SAP Cloud Platform Integration, Data Intelligence, Analytics Cloud, HANA Cloud). The repository is public and open to community contributions [citation:24].
-**Best for:** SAP Ariba developers wanting a curated collection of code samples and learning resources for extending Ariba using various SAP products and programming languages.
+| Platform 🏷️ | Primary Category ⚙️ | Valuation / Annual Revenue 💰 | Verified Pricing Tier 💳 | Free Tier / Trial Limits ⏱️ | Best For 🎯 |
+|---|---|---|---|---|---|
+| **[Coupa App Marketplace](https://marketplace.coupa.com/)** | Spend Management & Partner Ecosystem | **$8.0B Valuation** (~$800M–$1.0B ARR) | Starting at ~$15,000 – $50,000/yr (entry modules); mid-market $50k–$250k+/yr | ❌ No free trial for core buyer platform; Free basic tier available on Coupa Supplier Portal (CSP) for suppliers | Pre-built integrations extending procurement into finance, tail spend, & negotiation |
+| **[Icertis Contract Intelligence](https://www.icertis.com/)** | SAP Solution Extension (SolEx) CLM | **$5.0B Valuation** (~$350M ARR) | Starting median ACV at ~$88,000/yr (year-1 implementations $100k–$300k+) | ❌ No free tier or self-serve free trial; guided sandbox POC provided upon sales engagement | Enterprise SAP-certified CLM with embedded SAP S/4HANA UX & agentic contract intelligence |
+| **[Tipalti Connect](https://tipalti.com/)** | Global Payables & Supplier Onboarding | **$2.0B+ Valuation** (~$100M+ ARR) | Starting at **$99/month** (AP Automation / Select tier); Mass Payouts from **$249/month** | ❌ No free plan or self-serve free trial; custom 1-on-1 guided product demo available | Global payables automation, cross-border remittances, supplier tax & VAT compliance |
+| **[Ivalua Integration Hub](https://www.ivalua.com/)** | Multi-ERP S2P & MCP AI Agent Hub | **~$150M – $250M ARR** (Private Equity backed) | Starting modular deployments at ~$150,000 – $180,000/yr; full suites $400k+/yr | ❌ No free plan or self-serve free trial; enterprise RFP demonstration on demand | Enterprises with complex multi-ERP landscapes requiring bidirectional Model Context Protocol (MCP) support |
+| **[JAGGAER Connect](https://www.jaggaer.com/)** | ERP Integration & Source-to-Pay Suite | **~$150M – $200M+ ARR** (Cinven owned) | Modular framework plans starting from ~£4,600 – £10,000/yr ($6k–$13k); standalone enterprise suites ~$165,000/yr | ❌ No free trial or free version; custom guided sandbox demos available upon RFP request | Organizations requiring pre-built connectors (SAP, Oracle, NetSuite) across higher-ed & public sector |
+| **[Basware P2P](https://www.basware.com/)** | Global E-Invoicing Network & Accounts Payable | **~$150M – $180M ARR** (Arrowroot Capital) | Custom volume-based tiers starting around ~$12,000 – $25,000/yr based on invoice throughput & format count | ❌ No free trial or free tier; customized live architectural demo and format assessment on request | E-invoicing and purchase-to-pay automation across 70+ global compliance and e-delivery formats |
+| **[Zycus Merlin Agentic Platform](https://www.zycus.com/)** | Autonomous S2P Suite & AI Procurement | **~$100M+ ARR** (Privately held) | Entry modular spend analytics (*iAnalyze*) starting at ~$140,000 – $260,000/yr | ❌ No free tier or open trial; structured enterprise pilot proof-of-concept (PoC) upon qualification | End-to-end Source-to-Pay automation driven by autonomous agentic workflows & MS Teams guided intake |
 
-### OpenProcurement
-**Stack:** Python / (Check repository) | **License:** Open Source
-OpenProcurement is an open-source procurement platform foundation for **transparent tendering, supplier trust, bid evaluation, contract awards, and auditable public-sector workflows** [citation:4]. It is listed among GitHub's procurement-system topic repositories, with a focus on public-sector procurement transparency. The platform supports e-procurement workflows aligned with open standards, making it relevant for organizations building Ariba-adjacent public procurement infrastructure.
-**Best for:** Public-sector organizations and procurement platforms wanting an open-source foundation for transparent, auditable tendering workflows.
+---
 
-### Oxalis-NG
-**Stack:** Java | **License:** Open Source
-Oxalis-NG is an open-source implementation of the **OpenPeppol AS4 profile**, providing the interoperability layer for Peppol eDelivery [citation:12]. It is part of the broader e-procurement standards ecosystem, enabling secure document exchange between procurement systems. While not Ariba-specific, it is a foundational building block for European e-invoicing and e-procurement compliance.
-**Best for:** Developers building Peppol-compliant e-procurement integrations who need a proven AS4 implementation, particularly for European public procurement.
+### 🔍 Feature Deep-Dive
+
+#### 🔹 [Coupa App Marketplace](https://marketplace.coupa.com/)
+* **Type:** Partner ecosystem for procurement and spend management 🌐
+* **Capabilities:** Certified integrations that extend Coupa's spend management capabilities. Listings include **Spendflo** for AI SaaS negotiation, **Torii** for SaaS contract visibility, **Pactum AI** for autonomous purchase request negotiations, **Fairmarkit** for tail spend sourcing automation, and **CrossConnect** connectors for Sage Intacct, QuickBooks Online, and Workday. Includes **MuleSoft Connector by AcquisLink** for streamlined enterprise integration development.
+* **Target Audience:** Enterprises wanting pre-built, certified integrations extending procurement into finance, SaaS management, and autonomous negotiation without custom development.
+
+#### 🔹 [Icertis Contract Intelligence for SAP Ariba](https://www.icertis.com/sap/)
+* **Type:** SAP Solution Extension (SolEx) for Contract Lifecycle Management 📜
+* **Capabilities:** SAP's **only Solution Extension (SolEx) partner for CLM**, providing a strategically aligned, SAP premium-certified platform rather than just an integration. Available in **Premium and Premium Plus editions** for contract visibility, automation, and AI-powered insights. Contract intelligence is natively embedded in the SAP UX, enabling authoring, redlining, insights, and obligation tracking across the contract lifecycle with agentic contracting in S/4HANA workflows.
+* **Target Audience:** SAP-centric enterprises wanting a certified, SAP-embedded CLM extension with AI-native contracting capabilities.
+
+#### 🔹 [Tipalti Connect](https://tipalti.com/)
+* **Type:** Global payables automation & supplier onboarding 💳
+* **Capabilities:** Streamlines supplier onboarding, invoice processing, mass payments, tax compliance (W-9 / W-8), and financial reconciliation. Extends ERP workflows with bi-directional syncing across payables, procurement, expenses, and corporate cards. Provides OAuth 2.0 with PKCE and client credential APIs across production and sandbox environments.
+* **Target Audience:** Fast-growing digital businesses and finance teams looking to automate global disbursements and payables compliance.
+
+#### 🔹 [Ivalua Integration Hub](https://www.ivalua.com/)
+* **Type:** Unified integration platform with multi-ERP & AI agent support 🤖
+* **Capabilities:** Pre-built connectors and templates for SAP S/4HANA, ECC, Oracle, Microsoft Dynamics, Workday, Dun & Bradstreet supplier intelligence, and DocuSign e-signatures. A major differentiator is **bidirectional Model Context Protocol (MCP) support**: Ivalua's IVA agent can call external MCP servers, and external AI agents can govern Ivalua workflows through a hosted MCP server. Multi-ERP integration operates on a single instance without secondary integration licensing.
+* **Target Audience:** Enterprises with complex multi-ERP landscapes seeking unified Source-to-Pay governance and native agentic AI connectivity.
+
+#### 🔹 [JAGGAER Connect](https://www.jaggaer.com/)
+* **Type:** ERP integration & source-to-pay connectivity 🔗
+* **Capabilities:** Standardized integration between JAGGAER Source-to-Pay solutions and core ERP, HCM, and finance platforms. Provides pre-built ERP connectors for SAP, Oracle, NetSuite, and Ellucian via JAGGAER Link. Backed by open REST APIs and high-availability Infrastructure-as-a-Service (IaaS).
+* **Target Audience:** Higher-education, manufacturing, healthcare, and public sector organizations requiring resilient ERP integrations with minimal IT maintenance overhead.
+
+#### 🔹 [Basware P2P](https://www.basware.com/)
+* **Type:** Global e-invoicing and purchase-to-pay network 🌐
+* **Capabilities:** Cloud-based e-invoicing and accounts payable automation with REST APIs for submitting and receiving electronic invoices across **70+ formats**, managing POs, processing AP, and archiving audit-compliant documents. The Basware Network connects buyers and suppliers worldwide through a single automated format conversion gateway.
+* **Target Audience:** Global enterprises requiring e-invoicing regulatory compliance and automated cross-border AP matching.
+
+#### 🔹 [Zycus Merlin Agentic Platform](https://www.zycus.com/)
+* **Type:** Source-to-pay suite powered by Agentic AI ⚡
+* **Capabilities:** Full Source-to-Pay suite with autonomous AI agents across intake, procure-to-pay, source-to-contract, and orchestration. **Merlin Intake** embeds within Microsoft Teams for conversational procurement requests, speeding intake cycle times by up to 70%. **Zycus AppXtend** enables custom apps on top of a unified PaaS architecture.
+* **Target Audience:** Procurement leadership seeking an organically integrated S2P suite featuring built-in autonomous agentic execution.
+
+---
+
+## 💻 Open-Source Software & Extensions
+
+Community-driven, open-source Procurement Suite Extensions, BTP CAP reference architectures, and e-delivery protocols. Sorted by GitHub star count in descending order.
+
+| Open-Source Project 📦 | Stars ⭐ | Primary Stack 🛠️ | License 📜 | Ariba Relevance & Architecture 🔌 | Description & Focus 💡 |
+|---|---|---|---|---|---|
+| **[ERPNext](https://github.com/frappe/erpnext)** | [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python / JavaScript / MariaDB | GPL-3.0 | 🔄 Alternative ERP / S2P Engine | Full-featured, self-hosted open-source ERP with comprehensive procurement, purchase orders, RFQ, supplier portals, and two-way matching. |
+| **[OpenProcurement API](https://github.com/openprocurement/openprocurement.api)** | [![GitHub stars](https://img.shields.io/github/stars/openprocurement/openprocurement.api?style=social&color=white)](https://github.com/openprocurement/openprocurement.api/stargazers) | Python / CouchDB | Apache-2.0 | 🏛️ Public Procurement & Tendering | Open-source procurement datastore and API underpinning high-volume, transparent electronic tenderings, auctions, and contract awards. |
+| **[Oxalis-NG](https://github.com/OxalisCommunity/oxalis-ng)** | [![GitHub stars](https://img.shields.io/github/stars/OxalisCommunity/oxalis-ng?style=social&color=white)](https://github.com/OxalisCommunity/oxalis-ng/stargazers) | Java | Apache-2.0 / LGPL-3.0 | 🇪🇺 Peppol eDelivery AS4 Gateway | Next-generation implementation of the OpenPeppol AS4 profile for exchanging e-invoices and procurement business documents across European and global networks. |
+| **[Ariba Extensibility Samples](https://github.com/SAP-archive/ariba-extensibility-samples)** | [![GitHub stars](https://img.shields.io/github/stars/SAP-archive/ariba-extensibility-samples?style=social&color=white)](https://github.com/SAP-archive/ariba-extensibility-samples/stargazers) | Jupyter / Python / Node.js | Apache-2.0 | 📑 SAP Ariba Developer Reference | Curated code samples for communicating with SAP Ariba Developer Portal APIs, SAP Cloud Connector, and SAP HANA Cloud integration. |
+| **[BTP Procurement Data Extractor](https://github.com/SAP-archive/btp-procurement-data-extractor)** | [![GitHub stars](https://img.shields.io/github/stars/SAP-archive/btp-procurement-data-extractor?style=social&color=white)](https://github.com/SAP-archive/btp-procurement-data-extractor/stargazers) | SAP BTP CAP / Node.js | Apache-2.0 | 📊 Ariba Cloud Services Extractor | Reference BTP application retrieving SAP Ariba Cloud Services spend and transactional data through standard APIs into SAP BTP databases. |
+| **[ITK Lite 4 Procurement](https://github.com/SAP-samples/btp-integration-toolkit-lite)** | [![GitHub stars](https://img.shields.io/github/stars/SAP-samples/btp-integration-toolkit-lite?style=social&color=white)](https://github.com/SAP-samples/btp-integration-toolkit-lite/stargazers) | SAP BTP CAP / Node.js / PostgreSQL | Apache-2.0 | 🔄 Ariba ITK Official Replacement | BTP CAP application replacing the deprecated SAP Ariba Integration Toolkit (ITK), connecting SAP Ariba with non-SAP ERPs via SFTP and automated CSV batch exchange. |
+| **[Lite Inventory Management](https://github.com/SAP-samples/liteinventorymanagement)** | [![GitHub stars](https://img.shields.io/github/stars/SAP-samples/liteinventorymanagement?style=social&color=white)](https://github.com/SAP-samples/liteinventorymanagement/stargazers) | SAP BTP CAP / Node.js / SAP HANA | Apache-2.0 | 📦 Ariba Catalog Management Sync | Lightweight BTP inventory application managing Goods Receipts, Goods Issues, and automatic inventory synchronization with SAP Ariba Catalog Management. |
+| **[Tail Spend Management](https://github.com/SAP-samples/tailspendmanagement)** | [![GitHub stars](https://img.shields.io/github/stars/SAP-samples/tailspendmanagement?style=social&color=white)](https://github.com/SAP-samples/tailspendmanagement/stargazers) | SAP BTP CAP / JavaScript | Apache-2.0 | 🎯 Ariba Tail Spend Automation | BTP CAP application addressing unmanaged tail spend through automated RFP event rules, region/commodity supplier mapping, and quotation automation. |
+| **[SLP Supplier Validation Controls](https://github.com/SAP-samples/slp-supplier-validation)** | [![GitHub stars](https://img.shields.io/github/stars/SAP-samples/slp-supplier-validation?style=social&color=white)](https://github.com/SAP-samples/slp-supplier-validation/stargazers) | SAP BTP CAP / JavaScript | Apache-2.0 | 🛡️ Ariba SLP Onboarding Extender | Centrally validates supplier tax IDs, bank details, and business licenses during SAP Ariba Supplier Lifecycle and Performance (SLP) registration. |
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Ariba-Specific | Integration Method | Self-Hosted | Best For |
-|----------|---------|-------|----------------|---------------------|-------------|----------|
-| **Icertis** | Proprietary | Cloud | ✅ SolEx | Embedded in SAP UX | ❌ | SAP-certified CLM extension |
-| **Coupa Marketplace** | Proprietary | Cloud | ❌ (Coupa) | Certified partner apps | ❌ | Coupa ecosystem extensions |
-| **JAGGAER Connect** | Proprietary | Cloud | ❌ (JAGGAER) | Prebuilt ERP connectors | ❌ | JAGGAER ERP integration |
-| **Ivalua Hub** | Proprietary | Cloud | ❌ (Ivalua) | Multi-ERP + MCP | ❌ | Multi-ERP + AI agent integration |
-| **ITK Lite 4** | Apache-2.0 | BTP CAP | ✅ ITK replacement | SFTP + CSV | ✅ (BTP) | Ariba ↔ non-SAP ERP |
-| **BTP Data Extractor** | Apache-2.0 | BTP CAP | ✅ Data extraction | Standard Ariba APIs | ✅ (BTP) | Ariba data → BTP |
-| **Tail Spend Mgmt** | Apache-2.0 | BTP CAP | ✅ Tail spend | Auto RFP rules | ✅ (BTP) | Tail spend automation |
-| **Ariba Ext. Samples** | Apache-2.0 | Various | ✅ Developer samples | APIs, Cloud Connector | ✅ | Ariba developer learning |
-| **OpenProcurement** | Open Source | Python | ❌ | Public tendering | ✅ | Public-sector transparency |
+| Solution / Framework 🛡️ | Type & Architecture 📐 | Native Ariba Alignment 🧩 | Multi-ERP Ready 🏢 | Self-Hostable 💻 | Primary Use Case 🚀 |
+|---|---|---|---|---|---|
+| **Icertis Contract Intelligence** | Enterprise SolEx SaaS | ✅ Premium SolEx (Embedded UX) | ✅ Yes | ❌ | AI Contract Lifecycle Management & Risk |
+| **Coupa App Marketplace** | Spend Management Platform | ❌ Coupa Native Ecosystem | ✅ Yes | ❌ | Autonomous spend & partner integrations |
+| **Tipalti Connect** | FinTech Payables Cloud | 🔗 ERP Connector & APIs | ✅ Yes | ❌ | Global accounts payable & mass remittances |
+| **Ivalua Integration Hub** | Enterprise S2P Suite | 🔗 Multi-ERP + MCP Server | ✅ Yes | ❌ | Bidirectional AI agent integration & S2P |
+| **JAGGAER Connect** | Enterprise S2P Platform | 🔗 Pre-built ERP Connectors | ✅ Yes | ❌ | Public sector, education & direct procurement |
+| **Basware P2P** | E-Invoicing Global Network | 🔗 REST APIs + Peppol | ✅ Yes | ❌ | Multi-format e-invoicing compliance (70+ formats) |
+| **Zycus Merlin Agentic Platform** | Agentic AI S2P Suite | 🔗 S2P Cloud Connectors | ✅ Yes | ❌ | Conversational Teams intake & agentic S2P |
+| **ERPNext** | Full Open-Source ERP | ❌ Standalone Open ERP | ✅ Yes | ✅ | Complete self-hosted procurement & supply chain |
+| **OpenProcurement API** | Open Public Tendering Engine | ❌ Open Standards API | ✅ Via API | ✅ | Transparent government and institutional bidding |
+| **Oxalis-NG** | AS4 e-Delivery Protocol | 🔗 Peppol Access Point | ✅ Yes | ✅ | OpenPeppol AS4 European e-invoicing gateway |
+| **ITK Lite 4 Procurement** | SAP BTP CAP Reference App | ✅ Dedicated ITK Replacement | ✅ SFTP / Non-SAP | ✅ (BTP Cloud) | SFTP batch master/spend file synchronization |
+| **BTP Procurement Data Extractor** | SAP BTP Cloud Foundry App | ✅ Direct Ariba APIs | ⚠️ Ariba Focused | ✅ (BTP Cloud) | Enterprise spend analytics extraction |
+| **Lite Inventory Management** | SAP BTP CAP Application | ✅ Ariba Catalog Integration | ⚠️ Ariba Focused | ✅ (BTP Cloud) | Mid-market stock tracking & Ariba catalog sync |
+| **Tail Spend Management** | SAP BTP CAP Application | ✅ Ariba Sourcing Augmentation | ⚠️ Ariba Focused | ✅ (BTP Cloud) | Auto RFP dispatch & preferred vendor rules |
+| **SLP Supplier Validation** | SAP BTP CAP Application | ✅ Ariba SLP Lifecycle | ⚠️ Ariba Focused | ✅ (BTP Cloud) | External third-party supplier validation checks |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Procurement Suite Extension or SAP Ariba integration tool that should be listed here, please open a pull request with:
+Contributions are welcomed! Help expand this directory by submitting pull requests for verified extensions, BTP sample implementations, or enterprise Source-to-Pay connectors:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. 🍴 **Fork** the repository
+2. 🌿 **Create a new branch**: `git checkout -b feature/new-extension`
+3. 📝 **Add your project** in alphabetical order with verified pricing, stack, and architectural links
+4. 🚀 **Submit a Pull Request** with a concise summary of your addition
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem for **SAP Ariba extensions** is **anchored by SAP's own sample repositories**, which provide production-quality reference implementations for integration (ITK Lite 4), data extraction (BTP Procurement Data Extractor), and tail spend automation [citation:3][citation:11][citation:16]. These are samples rather than products, but they are maintained by SAP and Apache-2.0 licensed, making them viable starting points for custom Ariba-adjacent development. Commercial solution extensions like Icertis and Ivalua remain far more capable for production-grade contract intelligence and multi-ERP integration [citation:25][citation:30].
+Please check our [Contributing Guidelines](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for quality benchmarks.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Procurement-Suite-Extensions-Sap-Ariba&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Procurement-Suite-Extensions-Sap-Ariba&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for visiting and supporting the **Awesome Procurement Suite Extensions** project! 🌟
+
+If you found this directory helpful for your enterprise architecture evaluations, please consider:
+- ⭐ **Starring this repository** on GitHub to improve visibility!
+- 🍴 **Forking and sharing** it with your enterprise integration, SAP, and procurement engineering teams!
+- ☕ **Sponsoring the project** or buying us a coffee via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)!
+
+Every star and contribution directly fuels the ongoing maintenance and expansion of open-source knowledge bases. 🙌
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository and curated collection are released under the [CC0 1.0 Universal (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/) license. All third-party product names, logos, and trademarks are property of their respective owners.

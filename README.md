@@ -93,7 +93,7 @@ Commercial, cloud-hosted Procurement Suite Extensions and integrations for SAP A
 
 ## 💻 Open-Source Software & Extensions
 
-Community-driven, open-source Procurement Suite Extensions, BTP CAP reference architectures, and e-delivery protocols. Sorted by GitHub Stars_Count in descending order.
+Community-driven, open-source Procurement Suite Extensions, BTP CAP reference architectures, and e-delivery protocols. Sorted by GitHub_Stars_Count in descending order.
 
 | Open-Source Project 📦 | GitHub_Stars ⭐ | Primary Stack 🛠️ | License 📜 | Ariba Relevance & Architecture 🔌 | Description & Focus 💡 |
 |---|---|---|---|---|---|
